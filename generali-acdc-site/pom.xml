@@ -39,6 +39,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>info.magnolia</groupId>
+          <artifactId>magnolia-module-inplace-templating</artifactId>
+          <version>2.3</version>
+      </dependency>
   </dependencies>
 
   <build>

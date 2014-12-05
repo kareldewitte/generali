@@ -1,0 +1,60 @@
+BODY {
+    margin: 0px;
+}
+
+#stage {
+    margin-top:50px;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .row>DIV:nth-of-type(2n+1){
+        clear: both;
+    }
+}
+@media (min-width: 991px) {
+    .row>DIV:nth-of-type(2n+1){
+        clear: none;
+    }
+    .row>DIV:nth-of-type(3n+1){
+        clear: both;
+    }
+}
+
+#page-intro {
+    display: none;
+}
+
+#section .panel H3,
+#section #main FORM DIV {
+    margin:0;
+}
+
+
+#logo {
+    width: 250px;
+    height: 250px;
+    float: left;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*background-image: url(../imgs/magnolia-logo.png);*/
+}
+
+
+
+A.navbar-brand {
+    color: #fff !important;
+    /* font-size:  24px; */
+}
+.navbar-inverse{
+    background-color: #b22c1b;
+}
+
+.panel-body {
+    position: relative;
+}
